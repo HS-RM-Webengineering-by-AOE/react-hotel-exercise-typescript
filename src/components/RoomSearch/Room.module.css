@@ -1,0 +1,24 @@
+.room {
+    display: flex;
+    margin-bottom: var(--spacing-4);
+    align-items: stretch;
+}
+.img {
+    width: calc(var(--spacing-2) * 15);
+    margin-right: var(--spacing-4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightblue;
+    border-radius: var(--border-radius);
+}
+.roomHeadline {
+    margin-top: 0;
+    margin-bottom: var(--spacing-1);
+}
+.roomDetails {
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--spacing-1);
+    padding-bottom: var(--spacing-1);
+}

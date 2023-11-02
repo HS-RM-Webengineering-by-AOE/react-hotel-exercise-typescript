@@ -1,0 +1,15 @@
+.widget {
+    padding: var(--spacing-2);
+    border: 1px solid gray;
+    border-radius: var(--border-radius);
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.flexItem {
+    flex: 0 0 40%;
+    margin-bottom: var(--spacing-2);
+}

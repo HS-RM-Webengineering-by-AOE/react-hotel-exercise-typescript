@@ -1,0 +1,15 @@
+.button {
+    background-color: var(--primary);
+    border: 1px solid var(--primary-hover);
+    border-radius: var(--border-radius);
+    color: var(--on-primary);
+    display: block;
+    padding: var(--spacing-1) var(--spacing-2);
+    transition: background-color 200ms;
+    width: 100%;
+}
+
+.button:focus, .button:active, .button:hover {
+    background-color: var(--primary-hover);
+    cursor: pointer;
+}

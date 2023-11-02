@@ -1,0 +1,4 @@
+.content {
+    min-height: 75vh;
+    margin-bottom: var(--spacing-2);
+}

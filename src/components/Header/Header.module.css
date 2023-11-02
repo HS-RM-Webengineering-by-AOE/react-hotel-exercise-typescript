@@ -1,0 +1,9 @@
+.header {
+    margin-top: var(--spacing-2);
+    margin-bottom: var(--spacing-2);
+    border-bottom: 2px solid var(--primary);
+}
+.headerText {
+    text-align: center;
+    color: var(--primary);
+}

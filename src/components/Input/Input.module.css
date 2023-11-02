@@ -1,0 +1,17 @@
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.label, .hint {
+    display: block;
+}
+.hint {
+    color: gray;
+}
+.input {
+    margin-top: var(--spacing-1);
+    border: 1px solid var(--gray);
+    border-radius: var(--border-radius);
+    padding: 4px 2px;
+}
